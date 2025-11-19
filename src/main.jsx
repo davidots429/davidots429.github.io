@@ -10,8 +10,6 @@ window.Buffer = Buffer
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/">
-      <App />
-    </BrowserRouter>
+    <App />
   </StrictMode>
 )

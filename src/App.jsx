@@ -18,7 +18,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="min-h-screen flex flex-col bg-white dark:bg-gray-950">
         <Header />
         <main className="flex-1">
