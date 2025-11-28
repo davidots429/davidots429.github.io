@@ -1,40 +1,85 @@
-# 안녕하세요!
+# 저를 소개합니다!
 
-저는 웹 개발을 열정적으로 공부하고 있는 개발자입니다.
+## 프로필
+<table>
+    <tr>
+        <td style="border: none; width: 150px; vertical-align: middle;">
+            <img src="/images/icon_profile.png" alt="profile" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
+        </td>
+        <td style="border: none; vertical-align: middle;">
+            <pre>
+이름 : 김 범 수
+현재 소속 : 인하공전 컴퓨터정보공학과
+연락처 : davidots429@gmail.com</pre>
+        </td>
+    </tr>
+</table>
 
-## 기술 스택
+## 기술 스텍
 
-### Frontend
+### web: front-end
+<table>
+    <tr>
+        <td style="border: none; width: 150px; vertical-align: middle;">
+            <img src="/images/icon_geometric.png" alt="front-end" width="150 height="150>
+        </td>
+        <td style="border: none; vertical-align: middle;">
+            <pre>
+언어 : JavaScript / TypeScript
+라이브러리 : React
+프레임워크 : Next.js(풀스텍) / jQuery
+스타일링 : Tailwind.css, Bootstrap</pre>
+        </td>
+    </tr>
+</table>
 
-- **JavaScript/TypeScript**: 언어
-- **React**: UI 라이브러리
-- **Next.js**: React 풀스택 프레임워크
-- **Tailwind CSS**: 스타일링
+### web: back-end
+<table>
+    <tr>
+        <td style="border: none; width: 150px; vertical-align: middle;">
+            <img src="/images/icon_storage.png" alt="back-end" width="150 height="150>
+        </td>
+        <td style="border: none; vertical-align: middle;">
+            <pre>
+언어 : Java / Python
+런타임 : Node.js
+프레임워크 : Next.js(풀스텍) / Spring / Flask
+DBMS : PostgreSQL, MariaDB / MongoDB </pre>
+        </td>
+    </tr>
+</table>
 
-### Backend
+### app / data science
+<table>
+    <tr>
+        <td style="border: none; width: 150px; vertical-align: middle;">
+            <img src="/images/icon_terminal.png" alt="app" width="150 height="150>
+        </td>
+        <td style="border: none; vertical-align: middle;">
+            <pre>app
+언어 : Java / Kotlin
+프레임워크 : Android</pre>
+            <pre>data science
+언어 : python</pre>
+        </td>
+    </tr>
+</table>
 
-- **Node.js**: 런타임
-- **Express**: 웹 프레임워크
+### tools
+<table>
+    <tr>
+        <td style="border: none; width: 150px; vertical-align: middle;">
+            <img src="/images/icon_settings.png" alt="tools" width="150 height="150>
+        </td>
+        <td style="border: none; vertical-align: middle;">
+            <pre>
+IDE : Eclipse / Visual Studio / Android Studio
+에디터 : Visual Studio Code
+버전 관리 : Git, Github
+개발 환경 : Windows(데스크탑) / Linux(노트북) / Android(모바일)</pre>
+        </td>
+    </tr>
+</table>
 
-### Tools & Others
-
-- **Git/GitHub**: 버전 관리
-- **VS Code**: 개발 에디터
-- **Linux**: 개발 환경
-
-## 경험
-
-### 학습 중
-
-- 웹 개발의 기초부터 심화까지
-- 풀스택 개발 능력 향상
-- 개인 프로젝트를 통한 실무 경험
-
-## 목표
-
-1. 안정적이고 확장 가능한 웹 애플리케이션 개발
-2. 사용자 중심의 UI/UX 설계
-3. 클린 코드와 베스트 프랙티스 실천
-4. 지속적인 학습과 성장
-
----
+## 이력서 및 자기소개서
+아래의 첨부파일 링크에서 다운로드 할 수 있습니다!

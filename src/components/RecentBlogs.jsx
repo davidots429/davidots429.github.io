@@ -11,7 +11,7 @@ export default function RecentBlogs({ blogs, limit = 5 }) {
     <section className="max-w-7xl mx-auto px-4 py-12">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-          Recent Blogs
+          Recent Articles
         </h2>
         <Link
           to="/blog"

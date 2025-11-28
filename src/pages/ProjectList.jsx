@@ -48,7 +48,7 @@ export default function ProjectList() {
           Projects
         </h1>
         <p className="text-gray-600 dark:text-gray-400">
-          모든 프로젝트를 카테고리별로 확인하세요
+          프로젝트를 카테고리별로 확인하세요
         </p>
       </header>
 

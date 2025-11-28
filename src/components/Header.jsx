@@ -26,7 +26,7 @@ export default function Header() {
               to="/about/blog"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
             >
-              About this blog
+              About this site
             </Link>
             <Link
               to="/projects"
@@ -38,7 +38,7 @@ export default function Header() {
               to="/blog"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
             >
-              Blog
+              Articles
             </Link>
           </div>
         </nav>

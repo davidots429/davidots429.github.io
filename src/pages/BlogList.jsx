@@ -42,16 +42,16 @@ export default function BlogList() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          Blog
+          Articles
         </h1>
         <p className="text-gray-600 dark:text-gray-400">
-          모든 블로그 글을 주제별로 확인하세요
+          포스팅 된 모든 글을 주제별로 확인하세요
         </p>
       </header>
 
       {blogCategories.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-gray-600 dark:text-gray-400">블로그 글이 없습니다.</p>
+          <p className="text-gray-600 dark:text-gray-400">포스팅 된 글이 없거나 비공개 상태입니다.</p>
         </div>
       ) : (
         <div className="space-y-12">

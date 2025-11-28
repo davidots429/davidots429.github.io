@@ -45,7 +45,7 @@ export default function ProjectCategory() {
           to="/projects"
           className="text-blue-600 dark:text-blue-400 hover:underline mb-6 inline-block"
         >
-          ← Back to Projects
+          ← Back
         </Link>
 
         {posts.length === 0 ? (

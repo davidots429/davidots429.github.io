@@ -39,7 +39,7 @@ export default function BlogCategory() {
           to="/blog"
           className="text-blue-600 dark:text-blue-400 hover:underline mb-6 inline-block"
         >
-          ← Back to Blog
+          ← Back
         </Link>
 
         <CategoryContent
