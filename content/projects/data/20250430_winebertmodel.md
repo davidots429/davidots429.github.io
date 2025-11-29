@@ -9,7 +9,7 @@ tags: [data, modeling, bert, python]
 
 품종 기반 와인 추천 모델 제작
 
-- 이 프로젝트는 [WineReco](../web/20250603_winereco)와 연동됩니다.
+- 이 프로젝트는 [WineReco](https://davidots429.github.io/projects/web/20250603_winereco)와 연동됩니다.
 
 ## BERT
 
