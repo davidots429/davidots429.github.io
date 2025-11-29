@@ -1,16 +1,26 @@
-# React + Vite
+# 이 사이트에 대해서
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 사이트는 **React + vite**로 제작되어 **Github Pages**에서 호스팅되는 사이트입니다.
 
-Currently, two official plugins are available:
+이 사이트에 포스팅 된 모든 컨텐츠는 @[Davidots429](https://github.com/davidots429)(Beomsu Kim) 에게 모든 권리가 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+포스팅 된 모든 컨텐츠는 재사용 및 변형이 불가능합니다.
 
-## React Compiler
+[소스코드](https://github.com/davidots429/davidots429.github.io)는 링크에서 확인할 수 있습니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 기능
 
-## Expanding the ESLint configuration
+- 마크다운 기반 블로그 시스템
+- 동적 카테고리 생성 (폴더 추가만으로 자동 인식)
+- 목차 자동 생성 및 사이드바
+- 글 내 실시간 검색
+- 태그 기반 추천 글
+- 이전 다음 글 네비게이션
+- 뷰어 (이력서, 자기소개서를 포함한 pdf 파일)
+- 반응형 디자인
+  
+## 참고사항
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - /content 폴더 아래의 마크다운(.md)파일에 Github repository 페이지에서 직접 접근 하여 문서를 열람할 시 문서가 깨져보일 수 있습니다.
+  
+ - /content/projects (프로젝트) 아래에 글을 올리면 [Project 페이지](/projects)의 글 목록에 글이 보이고 content/blog (블로그) 아래에 글을 올리면 [Article 페이지](/blog)의 글 목록에 글이 보입니다.  

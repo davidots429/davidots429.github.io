@@ -206,7 +206,7 @@ export default function ArticleSidebar({ headings }) {
   };
 
   return (
-    <aside className="w-64 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 h-fit sticky top-24 flex flex-col">
+    <aside className="w-64 bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 h-fit sticky top-24 flex flex-col">
       <div className="p-4 border-b border-gray-200 dark:border-gray-700 shrink-0">
         <div className="mb-3">
           <div className="relative">

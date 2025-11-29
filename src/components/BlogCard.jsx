@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function BlogCard({ id, title, description, date, slug, category }) {
   return (
-    <article className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition">
+    <article className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg transition">
       <div className="flex justify-between items-start mb-3 gap-4">
         <h3 className="text-xl font-bold text-gray-900 dark:text-white flex-1">
           {title}

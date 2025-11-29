@@ -1,6 +1,6 @@
 export default function HeroSection({ imagePath, title, description }) {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-16">
+    <section className="mt-6 bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border-gray-300 dark:border-gray-700 max-w-4xl mx-auto px-8 py-15 flex flex-col md:flex-row items-center gap-16">
       <div className="w-1/2">
         <img
           src={imagePath}

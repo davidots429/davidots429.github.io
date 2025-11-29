@@ -16,7 +16,7 @@ export default function RecommendedPosts({ posts, baseUrl }) {
           <Link
             key={post.slug}
             to={`${baseUrl}/${post.category}/${post.slug}`}
-            className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
+            className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
           >
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">
               {post.title}

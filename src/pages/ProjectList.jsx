@@ -77,7 +77,7 @@ export default function ProjectList() {
                   <Link
                     key={post.slug}
                     to={`/projects/${post.category}/${post.slug}`}
-                    className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition"
+                    className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg transition"
                   >
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                       {post.title}

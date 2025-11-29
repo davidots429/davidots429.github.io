@@ -8,7 +8,7 @@ export default function PostNavigation({ prevPost, nextPost, baseUrl }) {
         {prevPost ? (
           <Link
             to={`${baseUrl}/${prevPost.category}/${prevPost.slug}`}
-            className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
+            className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
           >
             <div className="text-sm text-gray-600 dark:text-gray-400 mb-2">
               ← 이전 글
@@ -23,7 +23,7 @@ export default function PostNavigation({ prevPost, nextPost, baseUrl }) {
             )}
           </Link>
         ) : (
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-6 opacity-50">
+          <div className="bg-gray-100 shadow-sm dark:bg-gray-900 rounded-lg border border-gray-300 dark:border-gray-700 p-6 opacity-50">
             <div className="text-sm text-gray-500 dark:text-gray-500 mb-2">
               ← 이전 글
             </div>
@@ -37,7 +37,7 @@ export default function PostNavigation({ prevPost, nextPost, baseUrl }) {
         {nextPost ? (
           <Link
             to={`${baseUrl}/${nextPost.category}/${nextPost.slug}`}
-            className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
+            className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg hover:border-blue-500 dark:hover:border-blue-400 transition"
           >
             <div className="text-sm text-gray-600 dark:text-gray-400 mb-2 text-right">
               다음 글 →
@@ -52,7 +52,7 @@ export default function PostNavigation({ prevPost, nextPost, baseUrl }) {
             )}
           </Link>
         ) : (
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-6 opacity-50">
+          <div className="bg-gray-100 shadow-sm dark:bg-gray-900 rounded-lg border border-gray-300 dark:border-gray-700 p-6 opacity-50">
             <div className="text-sm text-gray-500 dark:text-gray-500 mb-2 text-right">
               다음 글 →
             </div>

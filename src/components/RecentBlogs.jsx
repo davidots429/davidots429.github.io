@@ -26,7 +26,7 @@ export default function RecentBlogs({ blogs, limit = 5 }) {
           <Link
             key={blog.id}
             to={blog.link}
-            className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition block"
+            className="bg-gray-100 shadow-sm dark:bg-gray-800 rounded-lg border border-gray-300 dark:border-gray-700 p-6 hover:shadow-lg transition block"
           >
             <div className="text-xs text-gray-500 dark:text-gray-400 mb-2 uppercase">
               {blog.category}

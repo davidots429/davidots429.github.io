@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+/* 라이트모드 (기본값) */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfcfc;
+  --foreground: #0a0a0a;
 }
 
+/* 다크모드 */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

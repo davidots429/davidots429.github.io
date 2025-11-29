@@ -44,7 +44,7 @@
 언어 : Java / Python
 런타임 : Node.js
 프레임워크 : Next.js(풀스텍) / Spring / Flask
-DBMS : PostgreSQL, MariaDB / MongoDB </pre>
+DBMS : PostgreSQL, MariaDB </pre>
         </td>
     </tr>
 </table>

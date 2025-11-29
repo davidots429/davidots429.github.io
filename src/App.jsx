@@ -12,14 +12,13 @@ import ProjectCategory from './pages/ProjectCategory';
 import ProjectPost from './pages/ProjectPost';
 import AboutMe from './pages/AboutMe';
 import AboutBlog from './pages/AboutBlog';
-import Resume from './pages/Resume';
-import Introduction from './pages/Introduction';
+import DocumentFile from './pages/DocumentFile';
 import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <BrowserRouter basename="/">
-      <div className="min-h-screen flex flex-col bg-white dark:bg-gray-950">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
           <Routes>
@@ -41,8 +40,7 @@ function App() {
             <Route path="/about/blog" element={<AboutBlog />} />
             
             {/* Documents */}
-            <Route path="/document/resume" element={<Resume />} />
-            <Route path="/document/introduction" element={<Introduction />} />
+            <Route path="/document/:file" element={<DocumentFile />} />
             
             {/* 404 - 마지막에 */}
             <Route path="*" element={<NotFound />} />

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+    <header className="bg-gray-100 shadow-sm dark:bg-gray-900 border-b border-gray-300 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-white">
@@ -10,12 +10,6 @@ export default function Header() {
           </Link>
           
           <div className="flex gap-6">
-            <Link
-              to="/"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
-            >
-              Home
-            </Link>
             <Link
               to="/about/me"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
