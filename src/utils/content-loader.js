@@ -1,6 +1,7 @@
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 import remarkGfm from 'remark-gfm';
+import { remarkLinkPlugin } from './remark-link-plugin'; 
 import matter from 'gray-matter';
 
 // Vite의 import.meta.glob으로 마크다운 파일 가져오기
@@ -28,6 +29,7 @@ async function processMarkdown(content) {
   
   const processedContent = await remark()
     .use(remarkGfm)
+    .use(remarkLinkPlugin) 
     .use(remarkHtml, { sanitize: false })
     .process(markdown);
 

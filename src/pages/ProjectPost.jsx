@@ -16,6 +16,15 @@ export default function ProjectPost() {
   const [recommendedPosts, setRecommendedPosts] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const handleLinkClick = (e) => {
+    const link = e.target.closest('a[data-link]');
+    if (link) {
+      e.preventDefault();
+      const url = link.getAttribute('data-link');
+      navigate(url);
+    }
+  };
+  
   useEffect(() => {
     const fetchPost = async () => {
       try {
@@ -182,7 +191,7 @@ export default function ProjectPost() {
             </header>
 
             {/* 글 내용 */}
-            <div className="prose dark:prose-invert max-w-none mb-12">
+            <div className="prose dark:prose-invert max-w-none mb-12" onClick={handleLinkClick}>
               <article
                 dangerouslySetInnerHTML={{ __html: post.html }}
                 className="markdown-content"
